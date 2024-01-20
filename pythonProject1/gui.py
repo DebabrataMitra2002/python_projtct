@@ -1,0 +1,57 @@
+# label= Label(root,text="welcome to my app:")
+# label.pack()
+# root.minsize(300,100)
+# root.maxsize(1200, 988)
+# frame=Frame(root,height=400,width=300)
+# frame.pack()
+# from tkinter import *
+# root = Tk()
+# frame = Frame(root)
+# frame.pack()
+# bottomframe = Frame(root)
+# bottomframe.pack( side = BOTTOM )
+# redbutton = Button(frame, text = 'Red', fg ='red')
+# redbutton.pack( side = LEFT)
+# greenbutton = Button(frame, text = 'Brown', fg='brown')
+# greenbutton.pack( side = LEFT )
+# bluebutton = Button(frame, text ='Blue', fg ='blue')
+# bluebutton.pack( side = LEFT )
+# blackbutton = Button(bottomframe, text ='Black', fg ='black')
+# blackbutton.pack( side = BOTTOM)
+# root.mainloop()
+
+# from tkinter import *
+# top = Tk()
+# mb = Menubutton ( top, text = "GfG")
+# mb.grid()
+# mb.menu = Menu ( mb, tearoff = 0 )
+# mb["menu"] = mb.menu
+# cVar = IntVar()
+# aVar = IntVar()
+# mb.menu.add_checkbutton ( label ='Contact', variable = cVar )
+# mb.menu.add_checkbutton ( label = 'About', variable = aVar )
+# mb.pack()
+# top.mainloop()
+
+# from tkinter import *
+# root = Tk()
+# v = IntVar()
+# Radiobutton(root, text='GfG', variable=v, value=1).pack(anchor=W)
+# Radiobutton(root, text='MIT', variable=v, value=2).pack(anchor=W)
+# mainloop()
+
+from tkinter import *
+      
+root = Tk()
+menu = Menu(root)
+root.config(menu=menu)
+filemenu = Menu(menu)+
+menu.add_cascade(label='File', menu=filemenu)
+filemenu.add_command(label='New')
+filemenu.add_command(label='Open...')
+filemenu.add_separator()
+filemenu.add_command(label='Exit', command=root.quit)
+helpmenu = Menu(menu)
+menu.add_cascade(label='Help', menu=helpmenu)
+helpmenu.add_command(label='About')
+mainloop()
