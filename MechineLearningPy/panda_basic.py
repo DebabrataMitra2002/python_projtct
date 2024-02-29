@@ -1,8 +1,12 @@
 import pandas as pd
-
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import linear_model as lm
 
 
 # print(pd.__version__)
+# print(plt.__version__)
+# print(np.__version__)
 
 
 # print(pd.__path__)
@@ -32,3 +36,17 @@ import pandas as pd
 # }
 # print(pd.DataFrame(myDataset))
 
+
+# Load data csv file to data frame:
+df = pd.read_csv('data.csv')
+print(df.to_string())
+print(df)
+df.plot(kind='scatter',x='Duration',y='Pulse')
+print(df.corr())
+plt.show()
+# print(df.info())
+ 
+# x=np.array([0,8])
+# y=np.array([0,8])
+# plt.plot(x,y,marker='h',color='red',ls=':')
+# plt.show()
