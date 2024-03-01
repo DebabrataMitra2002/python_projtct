@@ -3,6 +3,7 @@ from sklearn import linear_model as lm
 import matplotlib.pyplot as plt
 
 # Read the dataset
+
 df = pd.read_csv('homeprices.csv')
 
 # Plotting the scatter graph
