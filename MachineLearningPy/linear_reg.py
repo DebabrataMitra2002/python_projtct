@@ -1,15 +1,20 @@
 import pandas as pd
-from sklearn import linear_model as lm
+import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn import linear_model as lm
 
 # Read the dataset
-
 df = pd.read_csv('homeprices.csv')
 
-# Plotting the scatter graph
-plt.xlabel('area (sqr ft)')
-plt.ylabel('prices (US$)')
-plt.scatter(df.area, df.price, color='red', marker='+')
+# Plotting the scatter graph with regression line using Seaborn
+plt.figure(figsize=(10, 6))
+
+sns.regplot(x='area', y='price', data=df,ci=None)
+
+plt.xlabel('Area (sqr ft)')
+plt.ylabel('Price (US$)')
+plt.title('Area vs Price with Regression Line')
+
 plt.show()
 
 # Create a linear regression model object
