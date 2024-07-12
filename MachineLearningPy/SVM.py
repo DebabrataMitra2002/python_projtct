@@ -5,7 +5,7 @@ print(dir(iris))
 # print(iris.feature_names)
 df=pd.DataFrame(iris.data,columns=iris.feature_names)
 # print(df.head(10))
- rint(iris.target_names)
+print(iris.target_names)
 df['target']= iris.target
 df['flower_name'] =df.target.apply(lambda x: iris.target_names[x])
 # print(df.head())

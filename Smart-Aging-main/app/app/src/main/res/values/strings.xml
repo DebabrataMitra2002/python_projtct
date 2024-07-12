@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="profile">Profile</string>
+    <string name="friends_list">Friends List</string>
+    <string name="home">Home</string>
+    <string name="activities">Activites</string>
+</resources>

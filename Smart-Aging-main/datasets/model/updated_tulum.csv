@@ -1,0 +1,200 @@
+Index,Annotation,M005,M002,M006,M001,M009,M004,M014,M003,M015,M016,M018,M017,M008,M010,M011,M012,M007,M013,T001,T002,Duration,Patseq,Start_Date,End_Date,Start_Time,End_Time,season,weekday,preact,nextact,Shift,Sequence,R1_Annotation,R2_Annotation,R1PreActi,R2PreActi,R1NxtActi,R2NxtActi,Resident 1,Resident 2,SequenceLabel
+1,Cook_Breakfast,4,4,4,8,4,23,60,158,89,19,3,3,8,2,2,,2,,,,18,,02-04-2009,02-04-2009,07:12:05,07:29:59,summer,Thursday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,no acti,no acti,Cook_Lunch,Cook_Lunch,0,0,0
+2,Cook_Lunch,38,16,8,5,5,15,68,141,59,5,2,1,2,10,4,,,,,,15,,02-04-2009,02-04-2009,07:30:04,07:45:05,summer,Thursday,,,core night,"3, 14, 15",Cook_Lunch,Cook_Lunch,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,1,1,1
+3,R1_Snack,,1,1,14,2,16,22,164,169,151,6,6,1,,12,4,2,,,,27,,02-04-2009,02-04-2009,08:01:32,08:28:52,summer,Thursday,,, Morning,"15, 3, 16",R1_Snack,Others,Cook_Lunch,Cook_Lunch,R1_Snack,Others,2,8,2
+4,R1_Snack,,,,4,2,3,3,7,7,4,1,1,,,2,,,,,,4,,02-04-2009,02-04-2009,08:33:52,08:38:17,summer,Thursday,,, Morning,"3, 15, 1",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,3
+5,R1_Snack,,1,,10,6,10,20,76,72,103,3,3,3,,6,,5,,,,12,,02-04-2009,02-04-2009,10:17:48,10:29:58,summer,Thursday,,, late Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+6,R1_Snack,2,2,2,23,5,34,32,135,93,211,5,5,2,,23,30,,,,,25,,02-04-2009,02-04-2009,10:30:02,10:55:15,summer,Thursday,,, late Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+7,R1_Snack,,,,52,1,22,45,85,49,36,4,4,6,1,14,95,,,,,18,,02-04-2009,02-04-2009,11:41:59,11:59:59,summer,Thursday,,, late Morning,"12, 3, 1",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,5
+8,R1_Snack,1,3,1,16,3,22,15,29,9,2,1,1,2,,22,,1,,,,13,,02-04-2009,02-04-2009,12:00:00,12:12:44,summer,Thursday,,,Noon,"3, 4, 11",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,6
+9,R1_Snack,,,,2,2,12,17,20,6,4,3,3,3,3,4,178,1,,,,6,,02-04-2009,02-04-2009,17:23:12,17:29:05,summer,Thursday,,,afternoon,"3, 14, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,7
+10,R1_Snack,,1,1,42,9,20,84,212,101,28,4,4,2,4,13,4,6,,,,21,,02-04-2009,02-04-2009,17:31:53,17:53:22,summer,Thursday,,,afternoon,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,0
+11,Watch_TV,1,2,4,20,9,3,6,1,3,2,3,2,68,83,6,50,,,,,28,,02-04-2009,02-04-2009,18:32:03,18:59:55,summer,Thursday,,,Late afternoon,"10, 8, 12",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,8
+12,Watch_TV,,,,1,,,,,,,,,,10,,,,,,,1,,02-04-2009,02-04-2009,19:00:17,19:00:49,summer,Thursday,,,Late afternoon,"10, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,9
+13,Watch_TV,,,,57,7,3,,2,,,4,4,22,70,8,39,,,,,20,,02-04-2009,02-04-2009,19:38:08,19:57:53,summer,Thursday,,,Late afternoon,"10, 1, 12",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,10
+14,Watch_TV,,,,8,2,1,,,,,4,4,13,14,9,35,,,,,23,,02-04-2009,02-04-2009,20:06:19,20:29:36,summer,Thursday,,,Evening,"12, 10, 8",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,11
+15,Watch_TV,,,,63,10,2,,,,,2,2,5,50,38,57,3,,,,30,,02-04-2009,02-04-2009,20:30:02,20:59:32,summer,Thursday,,,Evening,"1, 12, 10",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,12
+16,Cook_Breakfast,2,2,2,10,6,22,67,132,52,18,3,3,4,4,2,,2,,,,12,,03-04-2009,03-04-2009,07:17:45,07:29:59,summer,Friday,,,core night,"3, 14, 15",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,0,0,1
+17,R1_Eat_Breakfast,9,10,4,9,6,51,76,97,30,18,2,2,,4,1,5,,,,,18,,03-04-2009,03-04-2009,07:30:04,07:48:24,summer,Friday,,,core night,"3, 14, 4",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,7
+18,R1_Snack,,,,1,1,8,24,113,104,88,3,3,,,1,,,,,,15,,03-04-2009,03-04-2009,10:15:13,10:29:54,summer,Friday,,, late Morning,"3, 15, 16",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,13
+19,R1_Snack,,,,18,8,23,50,71,22,6,6,6,2,2,4,74,,,,,30,,03-04-2009,03-04-2009,10:30:00,10:59:53,summer,Friday,,, late Morning,"12, 3, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,14
+20,R1_Snack,,,,29,5,9,10,72,57,170,6,6,14,6,2,178,,,,,30,,03-04-2009,03-04-2009,11:00:07,11:29:58,summer,Friday,,, late Morning,"12, 16, 3",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,15
+21,Watch_TV,,,,50,3,15,12,12,6,2,4,4,2,2,18,230,,,,,29,,03-04-2009,03-04-2009,11:30:00,11:59:19,summer,Friday,,, late Morning,"12, 1, 11",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,16
+22,Watch_TV,,,,3,4,4,4,4,3,4,1,1,,,2,20,,,,,4,,03-04-2009,03-04-2009,16:52:37,16:56:35,summer,Friday,,,afternoon,"12, 4, 9",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,17
+23,Watch_TV,,,,19,2,19,23,18,13,2,5,5,,1,12,64,,,,,26,,03-04-2009,03-04-2009,17:00:21,17:26:31,summer,Friday,,,afternoon,"12, 14, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,18
+24,Watch_TV,,,,6,,10,18,18,8,2,6,6,,,4,167,,,,,26,,03-04-2009,03-04-2009,17:30:27,17:56:13,summer,Friday,,,afternoon,"12, 3, 14",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,14
+25,Watch_TV,,,,2,2,,,,,,1,1,,,2,2,1,,,,2,,03-04-2009,03-04-2009,18:00:32,18:02:55,summer,Friday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+26,Watch_TV,,,,30,2,1,2,1,1,1,1,1,,,7,47,,,,,4,,03-04-2009,03-04-2009,18:55:20,18:59:50,summer,Friday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+27,Watch_TV,,,1,95,9,11,6,6,2,,5,5,,8,20,296,,,,,30,,03-04-2009,03-04-2009,19:00:05,19:29:50,summer,Friday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+28,Watch_TV,,,,99,2,20,16,12,4,2,6,6,,,20,281,,,,,29,,03-04-2009,03-04-2009,19:30:01,19:58:52,summer,Friday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,R1_Snack,Others,3,3,16
+29,R1_Snack,,,,1,1,6,11,20,8,9,,,,1,,,,,,,2,,03-04-2009,03-04-2009,22:02:43,22:04:13,summer,Friday,,,Night,"3, 14, 16",R1_Snack,Others,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,2,8,19
+30,Cook_Breakfast,4,6,6,9,7,33,54,141,81,19,3,3,4,,,,,,,,18,,06-04-2009,06-04-2009,07:12:20,07:29:57,summer,Monday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,Cook_Lunch,Cook_Lunch,0,0,0
+31,Cook_Lunch,5,1,1,1,1,65,82,75,27,2,2,2,,,,,,,,,25,,06-04-2009,06-04-2009,07:30:00,07:55:19,summer,Monday,,,core night,"14, 3, 4",Cook_Lunch,Cook_Lunch,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,1,1,20
+32,R1_Eat_Breakfast,,,,7,1,6,13,22,9,8,4,4,,,34,2,,,,,16,,06-04-2009,06-04-2009,08:11:56,08:28:00,summer,Monday,,, Morning,"11, 3, 14",R1_Eat_Breakfast,Others,Cook_Lunch,Cook_Lunch,Watch_TV,Watch_TV,4,8,21
+33,Watch_TV,,,,5,2,,,,,,1,1,,,8,,,,,,4,,06-04-2009,06-04-2009,08:30:01,08:33:37,summer,Monday,,, Morning,"11, 1, 9",Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,R1_Snack,Others,3,3,22
+34,R1_Snack,,1,,15,6,12,8,12,10,,1,1,3,,4,4,,,,,3,,06-04-2009,06-04-2009,10:43:08,10:46:13,summer,Monday,,, late Morning,"1, 4, 3",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,23
+35,R1_Snack,,1,1,7,15,18,6,7,2,,4,4,,,10,,,,,,19,,06-04-2009,06-04-2009,11:10:23,11:29:32,summer,Monday,,, late Morning,"4, 9, 11",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,24
+36,Watch_TV,,,,53,12,20,42,58,23,,6,6,6,4,30,162,,,,,26,,06-04-2009,06-04-2009,11:33:33,11:59:58,summer,Monday,,, late Morning,"12, 3, 1",Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,5
+37,R1_Snack,,,,16,8,26,46,139,87,301,6,6,6,,12,,,,,,30,,06-04-2009,06-04-2009,12:00:00,12:29:59,summer,Monday,,,Noon,"16, 3, 15",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,4
+38,R1_Snack,,,,8,6,20,44,156,63,151,6,6,4,,8,,2,,,,30,,06-04-2009,06-04-2009,12:30:00,12:59:32,summer,Monday,,,Noon,"3, 16, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,25
+39,R1_Snack,,,1,8,2,11,16,21,6,4,,,4,,14,,4,,,,3,,06-04-2009,06-04-2009,13:09:57,13:12:49,summer,Monday,,,Noon,"3, 14, 11",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,26
+40,R1_Snack,,,,1,1,3,3,3,1,,,,,,,,,,,,0,,06-04-2009,06-04-2009,13:35:45,13:35:53,summer,Monday,,,Noon,"4, 3, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,27
+41,R1_Snack,,,,1,1,3,3,3,5,3,,,,,,,,,,,0,,06-04-2009,06-04-2009,16:14:18,16:14:29,summer,Monday,,,afternoon,"15, 4, 3",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,28
+42,R1_Snack,,,,12,1,24,49,91,39,12,3,3,,,8,,,,,,13,,06-04-2009,06-04-2009,16:47:20,16:59:59,summer,Monday,,,afternoon,"3, 14, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,1
+43,R1_Snack,,,,56,4,68,55,122,47,12,4,4,,3,50,120,,,,,23,,06-04-2009,06-04-2009,17:00:01,17:23:23,summer,Monday,,,afternoon,"3, 12, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,29
+44,R1_Snack,,,1,16,7,28,36,75,51,15,2,2,5,,14,3,1,,,,14,,06-04-2009,06-04-2009,17:41:20,17:55:40,summer,Monday,,,afternoon,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,0
+45,Watch_TV,,1,1,26,13,5,,2,,,1,1,6,,10,32,6,,,,3,,06-04-2009,06-04-2009,21:49:09,21:52:15,summer,Monday,,,Evening,"12, 1, 9",Watch_TV,Watch_TV,R1_Snack,Others,Cook_Breakfast,Cook_Breakfast,3,3,30
+46,Cook_Breakfast,2,2,2,8,6,20,56,135,74,16,3,4,8,6,2,,,,,,17,,07-04-2009,07-04-2009,07:12:32,07:29:51,summer,Tuesday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,0,0,0
+47,Cook_Breakfast,10,8,8,17,17,41,78,136,40,9,3,3,2,10,4,,,,,,30,,07-04-2009,07-04-2009,07:30:08,07:59:57,summer,Tuesday,,,core night,"3, 14, 4",Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,Cook_Lunch,Cook_Lunch,0,0,7
+48,Cook_Lunch,,,,3,1,4,6,9,3,5,,,1,,,,2,,,,2,,07-04-2009,07-04-2009,08:00:00,08:02:28,summer,Tuesday,,, Morning,"3, 14, 16",Cook_Lunch,Cook_Lunch,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,1,1,19
+49,R1_Snack,2,2,2,13,5,17,25,69,53,21,2,2,2,,2,4,,,,,8,,07-04-2009,07-04-2009,10:51:37,10:59:50,summer,Tuesday,,, late Morning,"3, 15, 14",R1_Snack,Others,Cook_Lunch,Cook_Lunch,R1_Snack,Others,2,8,0
+50,R1_Snack,,,,1,2,3,8,102,63,371,6,6,,,,,,,,,30,,07-04-2009,07-04-2009,11:00:05,11:29:52,summer,Tuesday,,, late Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+51,R1_Snack,,,,12,8,92,73,206,119,134,6,6,6,,4,4,,,,,30,,07-04-2009,07-04-2009,11:30:09,11:59:58,summer,Tuesday,,, late Morning,"3, 16, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,25
+52,R1_Snack,,,,44,21,107,85,199,96,122,5,5,2,,10,,10,,,,27,,07-04-2009,07-04-2009,12:00:06,12:27:11,summer,Tuesday,,,Noon,"3, 16, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,31
+53,R1_Snack,,,,25,7,24,23,48,23,14,2,2,7,,4,,13,,,,7,,07-04-2009,07-04-2009,12:53:01,12:59:59,summer,Tuesday,,,Noon,"3, 1, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,32
+54,R1_Snack,,,,4,4,16,40,119,75,109,6,6,2,,2,,,,,,30,,07-04-2009,07-04-2009,13:00:01,13:29:56,summer,Tuesday,,,Noon,"3, 16, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,25
+55,R1_Snack,,,,7,1,9,11,17,6,25,1,1,,,4,14,,,,,4,,07-04-2009,07-04-2009,13:30:00,13:33:54,summer,Tuesday,,,Noon,"16, 3, 12",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,33
+56,R1_Snack,,,,16,2,17,27,104,84,82,3,3,,,12,2,,,,,29,,07-04-2009,07-04-2009,14:00:27,14:29:44,summer,Tuesday,,, Morning,"3, 15, 16",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,13
+57,R1_Snack,,,5,10,4,27,48,99,30,30,4,4,,,14,,,,,,19,,07-04-2009,07-04-2009,14:30:35,14:49:40,summer,Tuesday,,, Morning,"3, 14, 16",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,19
+58,Watch_TV,,,,4,2,3,1,1,,,,,,,4,4,,,,,0,,07-04-2009,07-04-2009,15:03:39,15:04:01,summer,Tuesday,,, Morning,"1, 11, 12",Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,34
+59,R1_Snack,,,,1,1,16,36,48,10,4,3,3,,,,,,,,,14,,07-04-2009,07-04-2009,15:46:18,15:59:53,summer,Tuesday,,, Morning,"3, 14, 4",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,7
+60,R1_Snack,,,,9,1,23,65,205,114,93,4,4,,,10,2,,,,,29,,07-04-2009,07-04-2009,16:01:04,16:29:51,summer,Tuesday,,,afternoon,"3, 15, 16",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,13
+61,R1_Snack,,,,13,,31,122,225,142,97,6,6,,,13,,,,,,28,,07-04-2009,07-04-2009,16:32:16,16:59:56,summer,Tuesday,,,afternoon,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,0
+62,R1_Snack,,,,10,2,10,35,79,59,112,3,3,3,,4,,1,,,,19,,07-04-2009,07-04-2009,17:00:01,17:19:02,summer,Tuesday,,,afternoon,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,4
+63,Watch_TV,,,,49,9,3,1,2,,,2,2,,,18,206,2,,,,13,,07-04-2009,07-04-2009,18:15:55,18:29:15,summer,Tuesday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,16
+64,Watch_TV,,1,1,55,7,5,6,4,3,6,2,2,2,2,10,92,,,,,10,,07-04-2009,07-04-2009,18:34:13,18:44:00,summer,Tuesday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,16
+65,Cook_Breakfast,4,5,2,23,8,54,108,275,147,44,6,6,15,,10,4,,,,,28,,08-04-2009,08-04-2009,07:01:47,07:29:25,summer,Wednesday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,0,0,0
+66,R1_Eat_Breakfast,4,3,2,26,1,57,96,210,110,77,4,4,,,16,,,,,,30,,08-04-2009,08-04-2009,07:30:08,07:59:59,summer,Wednesday,,,core night,"3, 15, 14",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,0
+67,R1_Snack,,,,2,1,3,8,67,31,120,2,2,,,,,,,,,30,,08-04-2009,08-04-2009,08:00:02,08:29:40,summer,Wednesday,,, Morning,"16, 3, 15",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,4
+68,R1_Snack,,,,,,1,1,12,1,7,,,,,,,,,,,1,,08-04-2009,08-04-2009,08:30:03,08:30:56,summer,Wednesday,,, Morning,"3, 16, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,25
+69,R1_Snack,,1,1,19,17,8,10,26,28,4,1,1,4,,9,4,2,,,,4,,08-04-2009,08-04-2009,10:25:55,10:29:58,summer,Wednesday,,, late Morning,"15, 3, 1",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,35
+70,R1_Snack,,,,8,,33,44,75,58,22,4,4,,,8,,,,,,18,,08-04-2009,08-04-2009,10:30:04,10:48:25,summer,Wednesday,,, late Morning,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,0
+71,R1_Snack,,,,43,,72,72,202,138,87,5,5,,,17,,,,,,24,,08-04-2009,08-04-2009,12:05:29,12:29:48,summer,Wednesday,,,Noon,"3, 15, 16",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,13
+72,Watch_TV,,,,43,6,16,12,52,46,56,6,6,,4,190,12,,,,,30,,08-04-2009,08-04-2009,12:30:15,12:59:58,summer,Wednesday,,,Noon,"11, 16, 3",Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,36
+73,R1_Snack,,,,40,1,23,28,88,44,92,5,5,,,92,87,,,,,29,,08-04-2009,08-04-2009,13:00:02,13:28:53,summer,Wednesday,,,Noon,"11, 16, 3",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,36
+74,R1_Snack,,,,1,1,2,3,5,4,,,,,,,,,,,,0,,08-04-2009,08-04-2009,13:35:41,13:36:01,summer,Wednesday,,,Noon,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,0
+75,R1_Snack,,,,,,4,2,2,,,,,,,,,,,,,0,,08-04-2009,08-04-2009,15:28:14,15:28:44,summer,Wednesday,,, Morning,"4, 14, 3",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,37
+76,Watch_TV,,,1,7,4,7,3,5,,,,,,,10,4,,,,,2,,08-04-2009,08-04-2009,16:00:37,16:02:41,summer,Wednesday,,,afternoon,"11, 1, 4",Watch_TV,Watch_TV,R1_Snack,Others,Enter_Home,Enter_Home,3,3,38
+77,Enter_Home,,2,,,,,,,,,,,,,,,,,,,0,,08-04-2009,08-04-2009,18:19:34,18:19:35,summer,Wednesday,,,Late afternoon,2,Enter_Home,Enter_Home,Watch_TV,Watch_TV,Watch_TV,Watch_TV,5,5,39
+78,Watch_TV,,,,2,2,1,1,1,1,1,,,,,4,2,,,,,0,,08-04-2009,08-04-2009,20:57:38,20:58:01,summer,Wednesday,,,Evening,"11, 12, 9",Watch_TV,Watch_TV,Enter_Home,Enter_Home,Watch_TV,Watch_TV,3,3,40
+79,Watch_TV,,,,8,,1,,,,,2,2,,,4,24,,,,,8,,08-04-2009,08-04-2009,21:19:48,21:27:53,summer,Wednesday,,,Evening,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+80,Watch_TV,,,,,,,,,,,6,6,,,,67,,,,,28,,08-04-2009,08-04-2009,21:30:09,21:58:18,summer,Wednesday,,,Evening,"12, 18, 17",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,41
+81,Watch_TV,,,,5,,1,,,,,3,3,,,8,52,,,,,14,,08-04-2009,08-04-2009,22:00:12,22:14:41,summer,Wednesday,,,Night,"12, 11, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,42
+82,Cook_Breakfast,5,7,4,7,3,22,82,176,85,28,3,3,4,2,,,2,,,,17,,09-04-2009,09-04-2009,07:12:37,07:29:59,summer,Thursday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,Leave_Home,Leave_Home,0,0,0
+83,Leave_Home,1,6,,3,1,,2,2,1,1,,,,,,,,,,,18,,09-04-2009,09-04-2009,07:30:01,07:48:28,summer,Thursday,,,core night,"2, 1, 3",Leave_Home,Leave_Home,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,6,6,43
+84,R1_Eat_Breakfast,,,,2,2,6,6,6,4,,,,,,,,,,,,1,,09-04-2009,09-04-2009,08:05:56,08:06:59,summer,Thursday,,, Morning,"4, 14, 3",R1_Eat_Breakfast,Others,Leave_Home,Leave_Home,R1_Snack,Others,4,8,37
+85,R1_Snack,,,,15,3,32,56,117,59,99,2,2,1,,11,12,,,,,16,,09-04-2009,09-04-2009,09:44:01,09:59:57,summer,Thursday,,, Morning,"3, 16, 15",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,25
+86,R1_Snack,,,,6,,9,32,162,103,229,5,5,,,,,,,,,30,,09-04-2009,09-04-2009,10:00:00,10:29:58,summer,Thursday,,, late Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+87,R1_Snack,,,,7,1,18,34,50,26,24,1,1,,,4,14,,,,,10,,09-04-2009,09-04-2009,10:30:03,10:40:14,summer,Thursday,,, late Morning,"3, 14, 15",R1_Snack,Others,R1_Snack,Others,Enter_Home,Enter_Home,2,8,1
+88,Enter_Home,,,,7,1,,,,,,,,,2,,,5,,,,1,,09-04-2009,09-04-2009,18:08:18,18:08:54,summer,Thursday,,,Late afternoon,"1, 7, 10",Enter_Home,Enter_Home,R1_Snack,Others,Watch_TV,Watch_TV,5,5,44
+89,Watch_TV,,,,4,2,,1,,,,,,,,3,4,2,,,,0,,09-04-2009,09-04-2009,20:04:47,20:05:07,summer,Thursday,,,Evening,"1, 12, 11",Watch_TV,Watch_TV,Enter_Home,Enter_Home,Watch_TV,Watch_TV,3,3,45
+90,Watch_TV,1,1,1,21,2,4,,,,,2,2,,,50,12,,,,,7,,09-04-2009,09-04-2009,20:53:10,20:59:59,summer,Thursday,,,Evening,"11, 1, 12",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,46
+91,Watch_TV,,,,4,,4,,,,,6,6,,,17,60,,,,,30,,09-04-2009,09-04-2009,21:00:00,21:29:57,summer,Thursday,,,Evening,"12, 11, 18",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,47
+92,Watch_TV,,,,8,4,1,,,,,3,3,,,7,28,,,,,14,,09-04-2009,09-04-2009,21:34:36,21:48:53,summer,Thursday,,,Evening,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,16
+93,Cook_Breakfast,2,2,2,4,2,22,43,121,51,4,2,2,4,2,,,,,,,13,,10-04-2009,10-04-2009,07:17:09,07:29:59,summer,Friday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,0,0,0
+94,R1_Eat_Breakfast,9,6,3,12,6,92,144,312,116,143,7,6,2,7,,,,,,,30,,10-04-2009,10-04-2009,07:30:01,07:59:31,summer,Friday,,,core night,"3, 14, 16",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,4,8,19
+95,R1_Eat_Breakfast,,,,2,,9,21,78,42,230,5,5,,,2,,,,,,22,,10-04-2009,10-04-2009,08:00:16,08:22:24,summer,Friday,,, Morning,"16, 3, 15",R1_Eat_Breakfast,Others,R1_Eat_Breakfast,Others,Watch_TV,Watch_TV,4,8,4
+96,Watch_TV,,,,27,1,20,13,21,4,2,2,2,,,12,100,,,,,13,,10-04-2009,10-04-2009,12:34:22,12:47:42,summer,Friday,,,Noon,"12, 1, 3",Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,Watch_TV,Watch_TV,3,3,48
+97,Watch_TV,,,,,,,,,,,,,,,1,,,,,,0,,10-04-2009,10-04-2009,13:23:30,13:23:30,summer,Friday,,,Noon,11,Watch_TV,Watch_TV,Watch_TV,Watch_TV,R1_Snack,Others,3,3,49
+98,R1_Snack,,,,7,5,12,14,16,4,4,2,2,,2,5,33,,,,,13,,10-04-2009,10-04-2009,13:33:44,13:46:38,summer,Friday,,,Noon,"12, 3, 14",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,14
+99,R1_Snack,,,,8,5,7,7,12,6,2,1,1,,2,,,,,,,1,,10-04-2009,10-04-2009,14:02:45,14:03:41,summer,Friday,,, Morning,"3, 1, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,32
+100,R1_Snack,,,,1,1,3,3,4,3,7,,,,,,,,,,,1,,10-04-2009,10-04-2009,15:56:08,15:56:44,summer,Friday,,, Morning,"16, 3, 4",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,50
+101,Watch_TV,,,,27,68,8,12,11,,,5,5,,2,17,172,14,,,,26,,10-04-2009,10-04-2009,16:03:43,16:29:30,summer,Friday,,,afternoon,"12, 9, 1",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,51
+102,Watch_TV,,1,1,22,47,8,7,8,4,,2,2,,,15,6,10,,,,11,,10-04-2009,10-04-2009,16:30:38,16:41:54,summer,Friday,,,afternoon,"9, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Enter_Home,Enter_Home,3,3,52
+103,Enter_Home,4,2,,,,,,,,,2,2,,,,,,,,,7,,10-04-2009,10-04-2009,18:02:07,18:09:04,summer,Friday,,,Late afternoon,"5, 2, 18",Enter_Home,Enter_Home,Watch_TV,Watch_TV,Watch_TV,Watch_TV,5,5,53
+104,Watch_TV,,,,5,2,1,1,1,,,,,,,2,3,,,,,0,,10-04-2009,10-04-2009,18:59:36,18:59:58,summer,Friday,,,Late afternoon,"1, 12, 9",Watch_TV,Watch_TV,Enter_Home,Enter_Home,Watch_TV,Watch_TV,3,3,54
+105,Watch_TV,,1,,37,9,3,2,1,1,,3,3,,4,48,166,,,,,16,,10-04-2009,10-04-2009,19:00:04,19:15:52,summer,Friday,,,Late afternoon,"12, 11, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,42
+106,Watch_TV,,1,1,16,9,5,4,2,,,4,4,,,59,195,,,,,17,,10-04-2009,10-04-2009,22:12:51,22:29:58,summer,Friday,,,Night,"12, 11, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,42
+107,Watch_TV,,,,39,2,2,2,2,,,4,4,,,39,258,,,,,23,,10-04-2009,10-04-2009,22:30:00,22:52:37,summer,Friday,,,Night,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,16
+108,Cook_Breakfast,11,9,12,16,14,30,75,224,108,33,4,4,9,4,,,,,,,22,,13-04-2009,13-04-2009,07:07:50,07:29:55,summer,Monday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,0,0,0
+109,R1_Eat_Breakfast,,,,1,1,16,40,178,44,234,4,4,,,,,,,,,28,,13-04-2009,13-04-2009,07:30:00,07:57:33,summer,Monday,,,core night,"16, 3, 15",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,4
+110,R1_Snack,,,,5,7,18,45,95,79,76,2,2,4,2,,,,,,,12,,13-04-2009,13-04-2009,08:17:26,08:29:54,summer,Monday,,, Morning,"3, 15, 16",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,13
+111,R1_Snack,,1,1,11,10,5,15,77,33,32,2,2,,,,4,4,,,,14,,13-04-2009,13-04-2009,08:30:04,08:43:44,summer,Monday,,, Morning,"3, 15, 16",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,13
+112,R1_Snack,,,,1,1,4,2,110,37,162,3,3,,,,,,,,,14,,13-04-2009,13-04-2009,09:16:13,09:29:51,summer,Monday,,, Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+113,R1_Snack,,,,23,4,61,31,47,19,14,3,3,6,2,8,6,2,,,,17,,13-04-2009,13-04-2009,09:30:32,09:47:11,summer,Monday,,, Morning,"4, 3, 14",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,27
+114,Watch_TV,,,,3,8,,,,,,,,,5,,,,,,,0,,13-04-2009,13-04-2009,12:11:19,12:11:36,summer,Monday,,,Noon,"9, 10, 1",Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,55
+115,R1_Snack,,,,5,3,9,19,26,10,12,1,1,,,5,3,,,,,20,,13-04-2009,13-04-2009,13:04:55,13:24:59,summer,Monday,,,Noon,"3, 14, 16",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,19
+116,R1_Snack,3,3,,6,5,6,4,6,2,,,,,,,,,,,,1,,13-04-2009,13-04-2009,17:20:19,17:20:59,summer,Monday,,,afternoon,"3, 4, 1",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,56
+117,Watch_TV,,,,54,5,12,10,23,16,1,5,4,,,46,305,,,,,29,,13-04-2009,13-04-2009,17:31:02,17:59:37,summer,Monday,,,afternoon,"12, 1, 11",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,16
+118,Watch_TV,,,,16,,4,1,1,,,4,4,,,34,138,,,,,18,,13-04-2009,13-04-2009,18:01:21,18:19:05,summer,Monday,,,Late afternoon,"12, 11, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,42
+119,Watch_TV,,,,10,3,1,,,,,1,1,,,4,70,,,,,6,,13-04-2009,13-04-2009,18:35:16,18:41:37,summer,Monday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+120,Watch_TV,1,,,13,4,,,,,,,,,2,7,16,,,,,2,,13-04-2009,13-04-2009,22:25:15,22:27:15,summer,Monday,,,Night,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,16
+121,Cook_Breakfast,2,2,2,33,21,33,74,173,105,12,4,4,2,2,6,2,6,,,,21,,14-04-2009,14-04-2009,07:08:39,07:29:59,summer,Tuesday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,0,0,0
+122,Cook_Breakfast,20,20,4,35,13,37,47,80,24,8,5,5,,,14,19,10,,,,30,,14-04-2009,14-04-2009,07:30:01,07:59:57,summer,Tuesday,,,core night,"3, 14, 4",Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,0,0,7
+123,R1_Eat_Breakfast,,,,,,1,5,82,57,136,3,3,,,,,,,,,12,,14-04-2009,14-04-2009,08:00:01,08:11:50,summer,Tuesday,,, Morning,"16, 3, 15",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,4
+124,R1_Snack,,,,1,1,11,40,82,32,10,1,1,1,,,,,,,,7,,14-04-2009,14-04-2009,09:22:42,09:29:59,summer,Tuesday,,, Morning,"3, 14, 15",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,1
+125,R1_Snack,,,,12,,5,19,39,30,61,6,6,,,16,,,,,,30,,14-04-2009,14-04-2009,09:30:00,09:59:39,summer,Tuesday,,, Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+126,R1_Snack,,,,27,8,41,26,36,14,8,1,1,4,,20,1,,,,,10,,14-04-2009,14-04-2009,10:49:30,10:59:48,summer,Tuesday,,, late Morning,"4, 3, 1",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,57
+127,R1_Snack,,,,37,15,73,76,173,75,39,5,5,6,,19,4,13,,,,28,,14-04-2009,14-04-2009,11:01:47,11:29:57,summer,Tuesday,,, late Morning,"3, 14, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,1
+128,R1_Snack,,,,10,8,141,76,272,155,159,6,6,2,,,,,,,,30,,14-04-2009,14-04-2009,11:30:01,11:59:59,summer,Tuesday,,, late Morning,"3, 16, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,25
+129,R1_Snack,,,,12,9,70,80,230,94,258,6,6,8,9,,,,,,,30,,14-04-2009,14-04-2009,12:00:03,12:29:54,summer,Tuesday,,,Noon,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+130,R1_Snack,,,,4,,9,8,37,12,59,1,1,,,4,23,,,,,6,,14-04-2009,14-04-2009,12:30:02,12:36:04,summer,Tuesday,,,Noon,"16, 3, 12",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,33
+131,R1_Snack,,,,1,,10,12,17,2,,,,,,1,2,,,,,3,,14-04-2009,14-04-2009,14:03:51,14:06:35,summer,Tuesday,,, Morning,"3, 14, 4",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,7
+132,Watch_TV,,,2,36,3,2,2,1,1,,1,1,,,19,79,,,,,27,,14-04-2009,14-04-2009,17:32:56,17:59:27,summer,Tuesday,,,afternoon,"12, 1, 11",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,16
+133,Watch_TV,,,,22,,6,5,1,1,,4,4,,,20,216,,,,,29,,14-04-2009,14-04-2009,18:01:12,18:29:56,summer,Tuesday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+134,Watch_TV,,,,3,1,,,,,,,,,,2,3,,,,,0,,14-04-2009,14-04-2009,18:30:00,18:30:23,summer,Tuesday,,,Late afternoon,"12, 1, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,16
+135,Watch_TV,,,,9,3,1,,,1,,,,,2,4,7,,,,,1,,14-04-2009,14-04-2009,22:15:27,22:16:07,summer,Tuesday,,,Night,"1, 12, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,45
+136,Cook_Breakfast,2,2,2,4,2,16,58,167,86,58,4,4,2,,,,2,,,,20,,15-04-2009,15-04-2009,07:09:59,07:29:58,summer,Wednesday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,0,0,0
+137,Cook_Breakfast,6,14,7,8,9,31,57,138,59,55,4,4,,,,,,,,,30,,15-04-2009,15-04-2009,07:30:05,07:59:57,summer,Wednesday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,0,0,0
+138,R1_Eat_Breakfast,,,,2,2,9,17,177,49,330,5,5,,,,,,,,,25,,15-04-2009,15-04-2009,08:00:00,08:25:20,summer,Wednesday,,, Morning,"16, 3, 15",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,4
+139,R1_Snack,,,,16,9,39,55,97,64,26,3,3,,11,2,1,,,,,15,,15-04-2009,15-04-2009,08:43:26,08:58:16,summer,Wednesday,,, Morning,"3, 15, 14",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,0
+140,R1_Snack,,,,,,5,10,77,28,98,3,3,,,,,,,,,12,,15-04-2009,15-04-2009,09:01:10,09:12:48,summer,Wednesday,,, Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+141,R1_Snack,,,,17,9,8,11,21,10,4,1,1,,,,,6,,,,2,,15-04-2009,15-04-2009,09:39:04,09:41:18,summer,Wednesday,,, Morning,"3, 1, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,58
+142,R1_Snack,,,,8,4,11,13,6,7,2,,,,,,,,,,,21,,15-04-2009,15-04-2009,12:07:59,12:28:52,summer,Wednesday,,,Noon,"14, 4, 1",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,59
+143,Watch_TV,,,,,,,,,,,,,1,,,,,,,,0,,15-04-2009,15-04-2009,12:33:18,12:33:18,summer,Wednesday,,,Noon,8,Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,60
+144,R1_Snack,,1,1,32,7,25,23,61,43,31,3,3,22,4,16,101,,,,,25,,15-04-2009,15-04-2009,13:04:58,13:29:53,summer,Wednesday,,,Noon,"12, 3, 15",R1_Snack,Others,Watch_TV,Watch_TV,Watch_TV,Watch_TV,2,8,61
+145,Watch_TV,,,,60,7,25,36,51,40,42,6,6,,,26,257,,,,,28,,15-04-2009,15-04-2009,13:30:13,13:58:21,summer,Wednesday,,,Noon,"12, 1, 3",Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,48
+146,R1_Snack,,,,36,6,34,52,55,14,2,2,2,,2,53,7,6,,,,8,,15-04-2009,15-04-2009,15:51:44,15:59:44,summer,Wednesday,,, Morning,"3, 11, 14",R1_Snack,Others,Watch_TV,Watch_TV,Watch_TV,Watch_TV,2,8,62
+147,Watch_TV,,,,69,4,10,4,3,,,5,5,,,194,334,,,,,28,,15-04-2009,15-04-2009,16:02:08,16:29:59,summer,Wednesday,,,afternoon,"12, 11, 1",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,42
+148,Watch_TV,,,,12,12,,,,,,3,3,,,10,25,2,,,,29,,15-04-2009,15-04-2009,16:30:03,16:59:22,summer,Wednesday,,,afternoon,"12, 9, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,51
+149,Watch_TV,,,,5,3,,,,,,,,,,3,3,2,,,,0,,15-04-2009,15-04-2009,17:00:26,17:00:50,summer,Wednesday,,,afternoon,"1, 12, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,45
+150,Watch_TV,1,1,1,3,2,,,,,,,,,,3,3,,,,,0,,15-04-2009,15-04-2009,21:13:11,21:13:21,summer,Wednesday,,,Evening,"1, 11, 12",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,34
+151,Watch_TV,,,,10,2,1,,,,,6,6,,,23,1,,,,,27,,15-04-2009,15-04-2009,21:32:12,21:58:45,summer,Wednesday,,,Evening,"11, 1, 18",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,63
+152,Watch_TV,,,,,,,,,,,5,5,,,19,,,,,,23,,15-04-2009,15-04-2009,22:03:46,22:27:08,summer,Wednesday,,,Night,"11, 18, 17",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,64
+153,Watch_TV,,,,2,,,,,,,1,1,,,9,4,,,,,5,,15-04-2009,15-04-2009,22:32:44,22:37:23,summer,Wednesday,,,Night,"11, 12, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,65
+154,Cook_Breakfast,2,2,2,18,6,32,86,263,112,51,4,4,4,6,4,,2,,,,23,,16-04-2009,16-04-2009,07:06:42,07:29:59,summer,Thursday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,0,0,0
+155,Cook_Breakfast,2,2,,2,2,8,39,62,32,6,2,2,,,2,,,,,,7,,16-04-2009,16-04-2009,07:30:01,07:36:34,summer,Thursday,,,core night,"3, 14, 15",Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,0,0,1
+156,R1_Eat_Breakfast,2,2,2,12,8,33,77,101,10,8,2,2,6,,6,2,4,,,,9,,16-04-2009,16-04-2009,08:04:09,08:12:40,summer,Thursday,,, Morning,"3, 14, 4",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,7
+157,R1_Snack,,,,14,9,10,12,175,74,296,6,6,,,4,16,4,,,,30,,16-04-2009,16-04-2009,08:30:20,08:59:57,summer,Thursday,,, Morning,"16, 3, 15",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,4
+158,R1_Snack,,,,19,10,33,62,199,73,98,5,5,,6,8,2,3,,,,25,,16-04-2009,16-04-2009,09:00:00,09:24:41,summer,Thursday,,, Morning,"3, 16, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,25
+159,R1_Snack,,,,2,2,12,13,10,16,15,1,1,,2,,,,,,,4,,16-04-2009,16-04-2009,10:25:46,10:29:57,summer,Thursday,,, late Morning,"15, 16, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,66
+160,R1_Snack,,,,45,17,59,73,155,59,33,6,6,4,,25,35,,,,,30,,16-04-2009,16-04-2009,10:30:02,10:59:55,summer,Thursday,,, late Morning,"3, 14, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,7
+161,R1_Snack,,,,14,,45,18,28,4,,2,2,,,11,27,,,,,10,,16-04-2009,16-04-2009,11:00:01,11:09:40,summer,Thursday,,, late Morning,"4, 3, 12",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,67
+162,R1_Snack,,,,8,,11,4,4,4,,,,,,10,,,,,,2,,16-04-2009,16-04-2009,11:58:20,11:59:58,summer,Thursday,,, late Morning,"4, 11, 1",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,68
+163,R1_Snack,,1,1,28,11,21,14,22,4,,1,1,,,14,4,,,,,14,,16-04-2009,16-04-2009,12:01:02,12:15:07,summer,Thursday,,,Noon,"1, 3, 4",R1_Snack,Others,R1_Snack,Others,Enter_Home,Enter_Home,2,8,69
+164,Enter_Home,2,1,,,,,,,,,,,,,,,,,,,0,,16-04-2009,16-04-2009,18:23:16,18:23:19,summer,Thursday,,,Late afternoon,"5, 2",Enter_Home,Enter_Home,R1_Snack,Others,Watch_TV,Watch_TV,5,5,70
+165,Watch_TV,,,,10,1,2,3,4,1,2,1,1,,,15,184,,,,,23,,16-04-2009,16-04-2009,19:07:01,19:29:53,summer,Thursday,,,Late afternoon,"12, 11, 1",Watch_TV,Watch_TV,Enter_Home,Enter_Home,Watch_TV,Watch_TV,3,3,42
+166,Watch_TV,,,1,69,2,6,6,6,1,,5,5,,,92,191,,,,,28,,16-04-2009,16-04-2009,19:31:29,19:59:59,summer,Thursday,,,Late afternoon,"12, 11, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,42
+167,Watch_TV,,,,16,4,2,2,2,,,3,3,,,44,154,,,,,30,,16-04-2009,16-04-2009,20:00:00,20:29:59,summer,Thursday,,,Evening,"12, 11, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,42
+168,Watch_TV,,,,,,,,,,,6,6,,,37,12,,,,,28,,16-04-2009,16-04-2009,20:30:10,20:58:20,summer,Thursday,,,Evening,"11, 12, 18",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,71
+169,Watch_TV,,,,17,10,,,,,,5,5,,2,87,72,,,,,27,,16-04-2009,16-04-2009,21:00:03,21:27:26,summer,Thursday,,,Evening,"11, 12, 1",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,65
+170,Cook_Breakfast,2,2,2,8,2,2,2,36,28,35,1,1,2,2,2,4,,,,,6,,17-04-2009,17-04-2009,07:24:13,07:29:59,summer,Friday,,,core night,"3, 16, 15",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,R1_Eat_Breakfast,Others,0,0,25
+171,R1_Eat_Breakfast,8,6,8,41,30,84,190,378,179,39,7,7,,,9,,6,,,,30,,17-04-2009,17-04-2009,07:30:07,07:59:59,summer,Friday,,,core night,"3, 14, 15",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,4,8,1
+172,R1_Eat_Breakfast,,,,14,7,17,33,105,46,226,5,5,6,,1,,,,,,25,,17-04-2009,17-04-2009,08:00:01,08:25:18,summer,Friday,,, Morning,"16, 3, 15",R1_Eat_Breakfast,Others,R1_Eat_Breakfast,Others,R1_Eat_Breakfast,Others,4,8,4
+173,R1_Eat_Breakfast,,,,2,1,15,53,187,111,167,5,5,,,,,,,,,25,,17-04-2009,17-04-2009,08:33:01,08:58:23,summer,Friday,,, Morning,"3, 16, 15",R1_Eat_Breakfast,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,4,8,25
+174,R1_Snack,,,,,,1,2,2,,,1,1,,,,,,,,,2,,17-04-2009,17-04-2009,09:00:44,09:02:33,summer,Friday,,, Morning,"14, 3, 18",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,72
+175,R1_Snack,,,,12,4,5,4,22,19,68,2,2,,,1,,11,,,,6,,17-04-2009,17-04-2009,09:45:13,09:51:35,summer,Friday,,, Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,4
+176,Watch_TV,,,,23,87,5,3,3,3,1,2,2,,2,3,,2,,,,18,,17-04-2009,17-04-2009,11:41:44,11:59:16,summer,Friday,,, late Morning,"9, 1, 4",Watch_TV,Watch_TV,R1_Snack,Others,R1_Snack,Others,3,3,73
+177,R1_Snack,,1,,28,17,38,62,85,21,10,5,5,,,26,36,,,,,23,,17-04-2009,17-04-2009,12:00:02,12:23:27,summer,Friday,,,Noon,"3, 14, 4",R1_Snack,Others,Watch_TV,Watch_TV,R1_Snack,Others,2,8,7
+178,R1_Snack,,,,4,4,29,131,132,23,12,5,5,,4,3,,,,,,27,,17-04-2009,17-04-2009,13:03:23,13:29:57,summer,Friday,,,Noon,"3, 14, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,7
+179,R1_Snack,,,,14,,25,84,80,32,39,6,6,,,8,1,,,,,30,,17-04-2009,17-04-2009,13:30:15,13:59:54,summer,Friday,,,Noon,"14, 3, 16",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,74
+180,R1_Snack,,,,39,,36,60,59,6,2,6,6,,,20,151,,,,,29,,17-04-2009,17-04-2009,14:00:02,14:28:43,summer,Friday,,, Morning,"12, 14, 3",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,75
+181,R1_Snack,,,,14,6,22,119,48,2,,6,6,,,14,,,,,,29,,17-04-2009,17-04-2009,14:30:36,14:59:57,summer,Friday,,, Morning,"14, 3, 4",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,20
+182,R1_Snack,,,,12,20,4,42,28,4,5,6,6,,4,22,,,,,,28,,17-04-2009,17-04-2009,15:01:25,15:29:44,summer,Friday,,, Morning,"14, 3, 11",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,76
+183,R1_Snack,,,,15,1,89,57,53,22,11,4,4,,,14,,,,,,30,,17-04-2009,17-04-2009,15:30:19,15:59:55,summer,Friday,,, Morning,"4, 14, 3",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,37
+184,R1_Snack,,,,,,25,82,238,127,52,6,6,,,,,,,,,30,,17-04-2009,17-04-2009,16:00:01,16:29:59,summer,Friday,,,afternoon,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,0
+185,R1_Snack,,,,13,3,28,68,221,158,68,5,5,,,6,4,,,,,30,,17-04-2009,17-04-2009,16:30:01,16:59:50,summer,Friday,,,afternoon,"3, 15, 14",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,0
+186,R1_Snack,,,,11,,9,42,250,141,254,6,6,,,12,,,,,,30,,17-04-2009,17-04-2009,17:00:00,17:29:58,summer,Friday,,,afternoon,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+187,R1_Snack,2,11,4,17,4,14,9,24,13,18,,,6,2,6,,2,,,,30,,17-04-2009,17-04-2009,17:30:02,17:59:37,summer,Friday,,,afternoon,"3, 16, 1",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,77
+188,Watch_TV,,,,13,3,,,,,,5,5,4,7,60,4,,,,,23,,17-04-2009,17-04-2009,18:00:15,18:23:44,summer,Friday,,,Late afternoon,"11, 1, 10",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,78
+189,Watch_TV,,,,27,6,1,,1,,,1,1,,1,15,22,6,,,,4,,17-04-2009,17-04-2009,21:16:14,21:20:17,summer,Friday,,,Evening,"1, 12, 11",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,3,3,45
+190,Cook_Breakfast,2,2,2,10,6,23,23,41,19,,1,1,8,,8,10,,,,,5,,20-04-2009,20-04-2009,06:55:15,06:59:58,summer,Monday,,,core night,"3, 4, 14",Cook_Breakfast,Cook_Breakfast,Watch_TV,Watch_TV,Cook_Breakfast,Cook_Breakfast,0,0,79
+191,Cook_Breakfast,2,2,2,6,4,47,109,248,153,34,5,5,2,2,2,,,,,,29,,20-04-2009,20-04-2009,07:00:01,07:28:40,summer,Monday,,,core night,"3, 15, 14",Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,Cook_Breakfast,R1_Eat_Breakfast,Others,0,0,0
+192,R1_Eat_Breakfast,2,2,2,28,12,19,21,19,2,4,3,3,14,4,12,,,,,,16,,20-04-2009,20-04-2009,07:32:32,07:48:23,summer,Monday,,,core night,"1, 14, 4",R1_Eat_Breakfast,Others,Cook_Breakfast,Cook_Breakfast,R1_Snack,Others,4,8,80
+193,R1_Snack,,1,,8,6,10,26,85,42,78,2,2,2,2,2,4,,,,,10,,20-04-2009,20-04-2009,10:49:24,10:59:50,summer,Monday,,, late Morning,"3, 16, 15",R1_Snack,Others,R1_Eat_Breakfast,Others,R1_Snack,Others,2,8,25
+194,R1_Snack,,,,,,5,19,100,51,148,5,5,,,,,,,,,21,,20-04-2009,20-04-2009,11:00:05,11:20:36,summer,Monday,,, late Morning,"16, 3, 15",R1_Snack,Others,R1_Snack,Others,R1_Snack,Others,2,8,4
+195,R1_Snack,,,,,,9,9,6,2,,,,,,,,,,,,2,,20-04-2009,20-04-2009,11:48:07,11:49:38,summer,Monday,,, late Morning,"4, 14, 3",R1_Snack,Others,R1_Snack,Others,Watch_TV,Watch_TV,2,8,37
+196,Watch_TV,,,,17,1,15,13,28,20,22,2,2,,,11,86,,,,,10,,20-04-2009,20-04-2009,13:19:42,13:29:17,summer,Monday,,,Noon,"12, 3, 16",Watch_TV,Watch_TV,R1_Snack,Others,Watch_TV,Watch_TV,3,3,81
+197,Watch_TV,,,,103,,41,46,70,30,18,6,6,,,20,377,,,,,30,,20-04-2009,20-04-2009,13:30:07,13:59:59,summer,Monday,,,Noon,"12, 1, 3",Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,Watch_TV,3,3,48
+198,Watch_TV,,,,88,4,21,49,79,43,24,5,5,,,16,297,4,,,,26,,20-04-2009,20-04-2009,14:00:02,14:26:09,summer,Monday,,, Morning,"12, 1, 3",Watch_TV,Watch_TV,Watch_TV,Watch_TV,R1_Snack,Others,3,3,48
+199,R1_Snack,,,,26,6,4,4,8,12,,2,2,,,8,48,20,,,,6,,20-04-2009,20-04-2009,14:46:11,14:52:30,summer,Monday,,, Morning,"12, 1, 7",R1_Snack,Others,Watch_TV,Watch_TV,no acti,no acti,2,,82
