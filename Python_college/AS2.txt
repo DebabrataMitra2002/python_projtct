@@ -1,0 +1,320 @@
+# Create a 3x3 NumPy array of integers from 1 to 9. Perform the following 
+# operations:
+import numpy as np  
+
+# Create the 3x3 array  
+array = np.array([[1, 2, 3],[4, 5, 6],[7, 8, 9]])  
+
+# Compute the transpose of the array  
+transpose_array = array.T  
+
+# Calculate the sum of all elements in the array  
+total_sum = np.sum(array)  
+
+# Compute the mean of each column  
+mean_columns = np.mean(array, axis=0)  
+
+# Find the maximum value in the array  
+max_value = np.max(array)  
+
+# Print results  
+print("Transpose of the array:\n", transpose_array)  
+print("Sum of all elements:", total_sum)  
+print("Mean of each column:", mean_columns)  
+print("Maximum value in the array:", max_value)
+
+# 2. **Array Reshaping and Indexing** 
+# Generate a 1D array of 15 elements with values ranging from 0 to 14. 
+# Reshape this array into a 3x5 matrix. Perform the following: 
+import numpy as np  
+
+# Generate a 1D array of 15 elements ranging from 0 to 14  
+array_1d = np.arange(15)  
+
+# Reshape the array into a 3x5 matrix  
+matrix_2d = array_1d.reshape(3, 5)  
+
+# Access and print the element in the second row and fourth column  
+element = matrix_2d[1, 3]  
+print("Element in second row and fourth column:", element)  
+
+# Extract and print the first two rows of the matrix  
+first_two_rows = matrix_2d[:2, :]  
+print("First two rows of the matrix:\n", first_two_rows)  
+
+# Flatten the reshaped matrix back to a 1D array  
+flattened_array = matrix_2d.flatten()  
+print("Flattened array:", flattened_array)
+
+
+# 3. **Boolean Indexing** 
+# Create a 4x4 NumPy array with random integers between 1 and 20. Use 
+# Boolean indexing to: - Find and print all elements greater than 10. - Replace all elements less than 5 with 0. - Create a Boolean mask to identify all elements that are even numbers.
+import numpy as np  
+
+# Create a 4x4 array with random integers between 1 and 20  
+array = np.random.randint(1, 21, size=(4, 4))  
+
+# Print the original array  
+print("Original Array:")  
+print(array)  
+
+# Find and print all elements greater than 10  
+greater_than_10 = array[array > 10]  
+print("\nElements greater than 10:")  
+print(greater_than_10)  
+
+# Replace all elements less than 5 with 0  
+array[array < 5] = 0  
+print("\nArray after replacing elements less than 5 with 0:")  
+print(array)  
+
+# Create a Boolean mask for even numbers  
+even_mask = (array % 2 == 0)  
+print("\nBoolean mask for even numbers:")  
+print(even_mask)
+
+
+#4.Given two matrices, `A` (2x3) and `B` (3x2), perform the following operations: - Multiply `A` and `B` using matrix multiplication. - Compute the element-wise product of `A` and its transpose. 
+# - Calculate the determinant of the resulting matrix from the element-wise 
+# product.
+import numpy as np
+
+# Define matrices A and B
+A = np.array([[1, 2, 3], [4, 5, 6]])
+B = np.array([[7, 8], [9, 10], [11, 12]])
+
+# 1. Matrix multiplication A * B
+AB = np.dot(A, B)
+
+# 2. Compute the element-wise product of A and its transpose (A * A^T)
+A_transpose = A.T
+AA_T = np.dot(A, A_transpose)
+
+# 3. Calculate the determinant of the resulting matrix from the element-wise product
+determinant_AA_T = np.linalg.det(AA_T)
+
+# Display the results
+print("Matrix A:")
+print(A)
+print("\nMatrix B:")
+print(B)
+print("\nMatrix Multiplication (A * B):")
+print(AB)
+print("\nElement-wise Product (A * A^T):")
+print(AA_T)
+print("\nDeterminant of the Element-wise Product matrix:")
+print(determinant_AA_T)
+
+
+#5. **Statistical Operations** 
+# Create a NumPy array with 50 random integers between 10 and 100. 
+# Compute: - The median of the array. - The variance of the array. - The 25th and 75th percentiles. - The number of elements that are greater than the mean value.
+import numpy as np
+
+# Create a NumPy array with 50 random integers between 10 and 100
+random_array = np.random.randint(10, 100, size=50)
+
+# Compute the median of the array
+median_value = np.median(random_array)
+
+# Compute the variance of the array
+variance_value = np.var(random_array)
+
+# Compute the 25th and 75th percentiles
+percentile_25 = np.percentile(random_array, 25)
+percentile_75 = np.percentile(random_array, 75)
+
+# Compute the number of elements that are greater than the mean value
+mean_value = np.mean(random_array)
+elements_greater_than_mean = np.sum(random_array > mean_value)
+
+# Display the results
+print("Random Array:")
+print(random_array)
+print("\nMedian of the array:")
+print(median_value)
+print("\nVariance of the array:")
+print(variance_value)
+print("\n25th percentile of the array:")
+print(percentile_25)
+print("\n75th percentile of the array:")
+print(percentile_75)
+print("\nNumber of elements greater than the mean value:")
+print(elements_greater_than_mean)
+
+
+# 6. **Random Arrays and Distribution** 
+# Generate an array of 1000 elements from a normal distribution with a mean 
+# of 0 and a standard deviation of 1. Perform the following: - Plot a histogram of the generated values. - Calculate the mean and standard deviation of the array. - Verify if the array follows the expected normal distribution by checking 
+# the skewness and kurtosis (use appropriate NumPy or SciPy functions). 
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import skew, kurtosis
+
+# 1. Generate an array of 1000 elements from a normal distribution
+normal_array = np.random.normal(loc=0, scale=1, size=1000)
+
+# 2. Plot a histogram of the generated values
+plt.hist(normal_array, bins=30, edgecolor='black')
+plt.title('Histogram of Normally Distributed Data')
+plt.xlabel('Value')
+plt.ylabel('Frequency')
+plt.show()
+
+# 3. Calculate the mean and standard deviation of the array
+mean_value = np.mean(normal_array)
+std_deviation = np.std(normal_array)
+
+# 4. Calculate the skewness and kurtosis to verify normality
+skewness = skew(normal_array)
+kurt = kurtosis(normal_array)
+
+# Display the results
+print(f"Mean of the array: {mean_value}")
+print(f"Standard Deviation of the array: {std_deviation}")
+print(f"Skewness of the array: {skewness}")
+print(f"Kurtosis of the array: {kurt}")
+
+
+# 7. **Array Manipulation** 
+# Create a 5x5 array filled with random integers between 1 and 10. Perform 
+# the following tasks: - Replace all values in the central 3x3 subarray with the number 99. - Swap the first and last rows of the array. - Compute the sum of all values in the even-indexed columns. 
+import numpy as np
+
+# 1. Create a 5x5 array filled with random integers between 1 and 10
+array = np.random.randint(1, 11, size=(5, 5))
+
+# 2. Replace all values in the central 3x3 subarray with the number 99
+array[1:4, 1:4] = 99
+
+# 3. Swap the first and last rows of the array
+array[[0, 4]] = array[[4, 0]]
+
+# 4. Compute the sum of all values in the even-indexed columns
+# Even-indexed columns are 0, 2, and 4 (assuming 0-based indexing)
+sum_even_columns = np.sum(array[:, ::2])
+
+# Display the results
+print("Modified Array:")
+print(array)
+print("\nSum of values in even-indexed columns:")
+print(sum_even_columns)
+
+
+# 8. **Element-wise Operations** 
+# Create two NumPy arrays A and B of the same shape. Perform the 
+# following operations: - Compute the element-wise addition and subtraction of A and B. - Calculate the element-wise maximum and minimum values between A 
+# and B. - Compute the Euclidean distance between the corresponding elements of 
+# A and B.
+import numpy as np
+
+# Create two NumPy arrays A and B of the same shape (for example, 3x3 arrays)
+A = np.random.randint(1, 10, size=(3, 3))
+B = np.random.randint(1, 10, size=(3, 3))
+
+# 1. Compute the element-wise addition and subtraction of A and B
+element_wise_addition = A + B
+element_wise_subtraction = A - B
+
+# 2. Calculate the element-wise maximum and minimum values between A and B
+element_wise_maximum = np.maximum(A, B)
+element_wise_minimum = np.minimum(A, B)
+
+# 3. Compute the Euclidean distance between the corresponding elements of A and B
+euclidean_distance = np.sqrt((A - B) ** 2)
+
+# Display the results
+print("Array A:")
+print(A)
+print("\nArray B:")
+print(B)
+
+print("\nElement-wise Addition of A and B:")
+print(element_wise_addition)
+
+print("\nElement-wise Subtraction of A and B:")
+print(element_wise_subtraction)
+
+print("\nElement-wise Maximum between A and B:")
+print(element_wise_maximum)
+
+print("\nElement-wise Minimum between A and B:")
+print(element_wise_minimum)
+
+print("\nEuclidean Distance between corresponding elements of A and B:")
+print(euclidean_distance)
+
+
+# 9. **Array Aggregation** 
+# Create a 4x4 matrix with random integers from 0 to 100. Perform the 
+# following: - Compute the sum of all elements along each row. - Compute the sum of all elements along each column. - Compute the total sum of all elements in the matrix and normalize it by 
+# dividing each element by this total sum. 
+import numpy as np
+
+# Create a 4x4 matrix with random integers from 0 to 100
+matrix = np.random.randint(0, 101, size=(4, 4))
+
+# 1. Compute the sum of all elements along each row
+sum_along_rows = np.sum(matrix, axis=1)
+
+# 2. Compute the sum of all elements along each column
+sum_along_columns = np.sum(matrix, axis=0)
+
+# 3. Compute the total sum of all elements in the matrix
+total_sum = np.sum(matrix)
+
+# Normalize the matrix by dividing each element by the total sum
+normalized_matrix = matrix / total_sum
+
+# Display the results
+print("Original Matrix:")
+print(matrix)
+
+print("\nSum of elements along each row:")
+print(sum_along_rows)
+
+print("\nSum of elements along each column:")
+print(sum_along_columns)
+
+print("\nTotal sum of all elements in the matrix:")
+print(total_sum)
+
+print("\nNormalized Matrix:")
+print(normalized_matrix)
+
+
+# 10. **Advanced Operations** 
+# Generate a 6x6 matrix of random numbers between 0 and 1. Perform the 
+# following: - Compute the cumulative sum along the columns. - Create a new matrix where each element is the logarithm (base 10) of the 
+# corresponding element in the original matrix. - Determine the indices where the elements of the matrix are above a 
+# threshold value (e.g., 0.5). 
+
+import numpy as np
+
+# Generate a 6x6 matrix of random numbers between 0 and 1
+matrix = np.random.rand(6, 6)
+
+# 1. Compute the cumulative sum along the columns
+cumulative_sum_columns = np.cumsum(matrix, axis=0)
+
+# 2. Create a new matrix where each element is the logarithm (base 10) of the corresponding element in the original matrix
+# Use np.log10 and handle log(0) by setting such elements to a small number (since log(0) is undefined)
+log_matrix = np.log10(np.where(matrix > 0, matrix, np.nextafter(0, 1)))
+
+# 3. Determine the indices where the elements of the matrix are above a threshold value (e.g., 0.5)
+threshold = 0.5
+indices_above_threshold = np.argwhere(matrix > threshold)
+
+# Display the results
+print("Original Matrix:")
+print(matrix)
+
+print("\nCumulative Sum along Columns:")
+print(cumulative_sum_columns)
+
+print("\nMatrix with Logarithm (base 10) of Elements:")
+print(log_matrix)
+
+print("\nIndices of Elements above Threshold (0.5):")
+print(indices_above_threshold)

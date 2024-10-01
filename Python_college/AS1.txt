@@ -1,0 +1,23 @@
+Functions:
+def square_number(n):
+    return n ** 2
+
+Loops:
+for i in range(1, 11):
+    print(i)
+	
+	
+Conditions:
+def is_even(n):
+    return n % 2 == 0
+
+
+Lists:
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num)
+
+
+Combining Concepts:
+def filter_even_numbers(lst):
+    return [num for num in lst if num % 2 == 0]
